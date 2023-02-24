@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Exo+2:ital@0;1&family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Exo+2:ital@0;1&family=Josefin+Sans&family=Salsa&display=swap');
+body{
+
+background-color: antiquewhite;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Exo 2', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Salsa', cursive;
+}
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+
+display: flex;
+align-items: center;
+list-style-type: none;
+height: 65px;
+background-color: black;
+color: white;
+
+
+}
+
+.brand img{
+width: 57px ;
+
+
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+ 
+}
+nav ul li{
+
+padding-left: 40px;
+
+}
+
+.header-hover:hover{
+
+background-color:rgb(121, 121, 238);
+height: 40px;
+width: 70px;
+padding: 5px;
+margin: 10px;
+border-radius: 10px;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header-hover-part2:hover{
+    background-color:rgb(121, 121, 238);
+    width: 50px;
+    height: 30px;
+    padding: 5px;
+    margin-left:15px;
+    border-radius: 10px;
+
+}
+.container{
+
+
+min-height: 70vh;
+background-color: black;
+color: black;
+font-family: 'Varela Round', sans-serif;
+display: flex;
+width: 70%;
+margin: 23px auto;
+border-radius: 15px;
+ padding: 35px;
+ background-image: url('./assets/main.png.png');
+}
+.bottom{
+
+position: sticky;
+height: 130px;
+background-color: black;
+color: white;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+.icons{
+
+margin-top: 15px;
+
+}
+
+.icons i {
+
+cursor: pointer;
+
+}
+
+#myprogressbar{
+
+
+width: 80vw;
+
+}
+
+.songItem{
+
+height: 50px;
+display: flex;
+background-color: black;
+color: white;
+width: 100%;
+margin: 25px ;
+border-radius: 10px;
+padding-top: 10px;
+
+}
+
+
+.songItem img {
+
+width: 43px ;
+margin: 0 2px;
+border-radius: 60px;
+
+
+}
+ .timestamp{
+
+ margin-left: 40px;
+
+
+ }
+
+ .songName{
+
+ padding-left: 10px;
+
+ }
+
+ .songInfo{
+
+position: absolute;
+left: 10vw;
+
+ }
